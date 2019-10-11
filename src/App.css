@@ -1,0 +1,123 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+body {
+  background: #999999;
+}
+
+header {
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  width: 100%;
+  background: #454545;
+  text-align: center;
+  display: inline-block;
+  z-index: 5;
+  padding-top: 1vh;
+  color: #999999;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 8vw;
+}
+
+.i {
+  font-size: 5vh;
+}
+.side {
+  position: fixed;
+  top: 44vh;
+}
+#left {
+  position: fixed;
+  left: 1vw;
+}
+#right {
+  position: fixed;
+  right: 1vw;
+}
+.s {
+  font-size: 7.5vh;
+  z-index: 5;
+  color: #454545;
+}
+#insert {
+  position: relative;
+  top: 8.5vh;
+  height: 10vh;
+  width: 98.75vw;
+
+  border: 1px solid black;
+}
+.use {
+  position: relative;
+  top: 20vh;
+  left: 5vw;
+  width: 90%;
+  color: #f8f9f9;
+  text-align: center;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+.names {
+  position: absolute;
+  display: inline-block;
+}
+i:hover {
+  color: yellow;
+}
+#words {
+  position: absolute;
+  z-index: 6;
+  top: 4vh;
+  font-size: 6vh;
+  width: 100%;
+}
+.captions {
+  display: inline-block;
+}
+#main {
+  position: absolute;
+  width: 92vw;
+}
+.fab {
+  margin-left: 2vw;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+.link {
+  width: 20vw;
+  height: 10vh;
+  background: #454545;
+  margin: auto;
+  border-radius: 10px;
+}
+a {
+  color: white;
+}
+
+.link:hover {
+  color: white;
+}
+.block {
+  display: inline-block;
+  margin-left: 2vw;
+}
+.cont {
+  font-size: 7.5vh;
+  color: #454545;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
