@@ -1,0 +1,12 @@
+.conti{
+    position: relative;
+    color: #454545;
+    padding: 0;
+    margin-left:1vw;
+    display: inline-block;
+    left:-0.5vw;
+    font-size:5vh;
+  }
+  .conti:hover{
+    color: 	#99B03B;
+    }

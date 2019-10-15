@@ -1,0 +1,43 @@
+.link {
+    position: relative;
+    width: 16vw;
+    height: 7vw;
+    background: #454545;
+    
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    color:#999999;
+    left:-1.3vw;
+    padding-bottom: 0.2vmin
+  }
+  
+  .link:hover {
+    color: 	#99B03B;
+  }
+  #portWelc{
+      margin-bottom: 9vw;
+  }
+  .portHead{
+    width: 15vw;
+    height: 8vw;
+    text-align:center;
+    display:inline-block;
+    margin-left:1vw;
+    font-size: 1.5vw;
+  }
+  .two{
+    padding-top: 0.2vw;
+    font-size: 1.5vw;
+  }
+  @media screen and (max-width: 800px) {
+      .link{
+          width: 20vw;
+      }
+      .portHead{
+          margin-right:2.9vw;
+          margin-left: 2vw;
+          left:-1vw;
+      }
+  }
